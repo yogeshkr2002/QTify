@@ -1,0 +1,4 @@
+.wrap{position:relative;}
+.nav{position:absolute;top:50%;transform:translateY(-50%);width:36px;height:36px;border:0;border-radius:50%;display:grid;place-items:center;background:var(--qt-green);cursor:pointer;z-index:2;box-shadow:var(--shadow);}
+.left{left:-14px;}.right{right:-14px;}
+.nav img{width:16px;height:16px;}

@@ -1,0 +1,7 @@
+:root{
+  --qt-green:#34C94B;--qt-black:#121212;--qt-dark:#181818;--qt-grey:#232323;--qt-white:#FFFFFF;
+  --radius:14px;--shadow:0 2px 10px rgba(0,0,0,.25);
+}
+*{box-sizing:border-box;}
+html,body,#root{height:100%;}
+body{margin:0;background:var(--qt-black);color:var(--qt-white);font-family:"Poppins",system-ui;}

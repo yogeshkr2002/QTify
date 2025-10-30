@@ -1,0 +1,6 @@
+.section{padding:22px 24px;}
+.head{display:flex;align-items:center;justify-content:space-between;}
+.title{margin:0 0 12px;font-size:18px;}
+.toggle{background:none;border:0;color:var(--qt-green);font-weight:600;cursor:pointer;padding:6px 8px;border-radius:8px;}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:18px;align-items:start;}
+.state{padding:24px 6px;opacity:.8;}

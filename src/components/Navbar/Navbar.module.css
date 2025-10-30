@@ -1,0 +1,1 @@
+.bar{display:grid;grid-template-columns:160px 1fr 160px;align-items:center;gap:16px;padding:12px 24px;background:var(--qt-green);position:sticky;top:0;z-index:10;}

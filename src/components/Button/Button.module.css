@@ -1,0 +1,7 @@
+.btn{
+  background:var(--qt-black);color:var(--qt-green);border:1px solid var(--qt-black);
+  border-radius:var(--radius);padding:10px 16px;font-weight:600;cursor:pointer;
+  box-shadow:var(--shadow);transition:transform .06s ease, box-shadow .2s ease;
+}
+.btn:hover{ transform:translateY(-1px); }
+.btn:active{ transform:translateY(0); }

@@ -1,14 +1,13 @@
-import { Box } from "@mui/material";
-import Navbar from "./components/Navbar";
-import "./App.css";
-
-export default function App() {
-  return (
-    <Box>
-      <Navbar />
-      <main className="container">
-        <img src="/Group 7483.png" alt="QTify Hero" className="hero-img" />
-      </main>
-    </Box>
-  );
+import Navbar from "./components/Navbar/Navbar";
+import Hero from "./components/Hero/Hero";
+import Section from "./components/Section/Section";
+import Songs from "./components/Songs/Songs";
+export default function App(){
+  return(<>
+    <Navbar />
+    <Hero />
+    <Section title="Top Albums" endpoint="/albums/top" metric="follows" showToggle/>
+    <Section title="New Albums" endpoint="/albums/new" metric="follows" showToggle/>
+    <Songs />
+  </>);
 }
