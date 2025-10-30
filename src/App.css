@@ -1,0 +1,7 @@
+/* Hero image styles */
+.hero-img {
+  width: 100%;
+  max-width: 1000px; /* keep it centered and not too big */
+  margin: 24px auto;
+  display: block;
+}
